@@ -1,0 +1,725 @@
+using System;
+using System.Threading;
+
+internal class Program
+{
+    static void Main(string[] args)
+    {
+        int Basic;
+        int Common;
+        int Uncommon;
+        int Good;
+        int Rare;
+        int Rarer;
+        int Aset;
+        int Sylarael;
+        int Vaeloria;
+        int Galendris;
+        int Myrrhyn;
+        int Lytherion;
+        int Glytharael;
+        int Elantris;
+        int Lythrynn;
+        int Glyndarae;
+        int Arcanyl;
+        int Nymarion;
+        int Solareth;
+        int Xylandor;
+        int Zyrendell;
+        int Nyxoria;
+        int Noctyraen;
+        int Luminarvex;
+        int Varathor;
+        int Lunarethys;
+        int Aelindor;
+        int Fenrylith;
+        int Valindor;
+        int Valoryn;
+        int Thylaria;
+        int Syrenthia;
+        int Quenlyra;
+        int Astralyxia;
+        int Elarithis;
+        int Eluvianth;
+        int Tristanthys;
+        int Thyranthis;
+        int Drakonys;
+        int Nympharel;
+        int Faloryn;
+        int Vystoria;
+        int Nivarel;
+        int Ithralion;
+        int Arcandryss;
+        int Elarionth;
+        int Fenorith;
+        int Cyntheris;
+        int Arcathis;
+        int Valkyrianth;
+        int Astrynna;
+        int Omnithor;
+        int Zephyriathis;
+        int Solyndris;
+        int Astralyn;
+        int Seraphyren;
+        int Aethralis;
+        int Zephyrosin;
+        int Kynthoros;
+        int Mythraleon;
+        int Aurelithis;
+        int Syndrellia;
+        int Thalindris;
+        int Pyrelia;
+        int Eldarial;
+        int Feralith;
+        int Sylpherius;
+        int Nerathor;
+        int Rivendral;
+        int Lunarethyl;
+        int GLICH;
+        Console.WriteLine("Press Enter to Roll");
+        Console.WriteLine("Press E and then Enter to see your Inventory");
+        while (true)
+        {
+            string choice = Console.ReadLine();
+            Random rng = new Random();
+            if (choice != "e")
+            {
+                int glich = rng.Next(2147483647);
+                if (glich == 0)
+                {
+                    Console.WriteLine("You got Glich 1 in 2,147,483,647");
+                }
+                else
+                {
+                    int lunarethyl = rng.Next(1000000000);
+                    if (lunarethyl == 0)
+                    {
+                        Console.WriteLine("You got Lunarethyl 1 in 1,000,000,000");
+                    }
+                    else
+                    {
+                        int rivendral = rng.Next(750000000);
+                        if (rivendral == 0)
+                        {
+                            Console.WriteLine("You got Rivendral 1 in 750,000,000");
+                        }
+                        else
+                        {
+                            int nerathor = rng.Next(600000000);
+                            if (nerathor == 0)
+                            {
+                                Console.WriteLine("You got Nerathor 1 in 600,000,000");
+                            }
+                            else
+                            {
+                                int sylpherius = rng.Next(400000000);
+                                if (sylpherius == 0)
+                                {
+                                    Console.WriteLine("You got Sylpherius 1 in 400,000,000");
+                                }
+                                else
+                                {
+                                    int feralith = rng.Next(300000000);
+                                    if (feralith == 0)
+                                    {
+                                        Console.WriteLine("You got Feralith 1 in 300,000,000");
+                                    }
+                                    else
+                                    {
+                                        int eldarial = rng.Next(250000000);
+                                        if (eldarial == 0)
+                                        {
+                                            Console.WriteLine("You got Eldarial 1 in 250,000,000");
+                                        }
+                                        else
+                                        {
+                                            int pyrelia = rng.Next(100000000);
+                                            if (pyrelia == 0)
+                                            {
+                                                Console.WriteLine("You got Pyrelia 1 in 100,000,000");
+                                            }
+                                            else
+                                            {
+                                                int thalindris = rng.Next(100000000);
+                                                if (thalindris == 0)
+                                                {
+                                                    Console.WriteLine("You got Thalindris 1 in 100,000,000");
+                                                }
+                                                else
+                                                {
+                                                    int syndrellia = rng.Next(75000000);
+                                                    if (syndrellia == 0)
+                                                    {
+                                                        Console.WriteLine("You got Syndrellia 1 in 75,000,000");
+                                                    }
+                                                    else
+                                                    {
+                                                        int aurelithis = rng.Next(60000000);
+                                                        if (aurelithis == 0)
+                                                        {
+                                                            Console.WriteLine("You got Aurelithis 1 in 60,000,000");
+                                                        }
+                                                        else
+                                                        {
+                                                            int mythraleon = rng.Next(50000000);
+                                                            if (mythraleon == 0)
+                                                            {
+                                                                Console.WriteLine("You got Mythraleon 1 in 50,000,000");
+                                                            }
+                                                            else
+                                                            {
+                                                                int kynthoros = rng.Next(49999999);
+                                                                if (kynthoros == 0)
+                                                                {
+                                                                    Console.WriteLine("You got Kynthoros 1 in 49,999,999");
+                                                                }
+                                                                else
+                                                                {
+                                                                    int xenorith = rng.Next(30000000);
+                                                                    if (xenorith == 0)
+                                                                    {
+                                                                        Console.WriteLine("You got Xenorith 1 in 30,000,000");
+                                                                    }
+                                                                    else
+                                                                    {
+                                                                        int zephyrosin = rng.Next(25000000);
+                                                                        if (zephyrosin == 0)
+                                                                        {
+                                                                            Console.WriteLine("You got Zephyrosin 1 in 25,000,000");
+                                                                        }
+                                                                        else
+                                                                        {
+                                                                            int aethralis = rng.Next(10000000);
+                                                                            if (aethralis == 0)
+                                                                            {
+                                                                                Console.WriteLine("You got Aethralis 1 in 10,000,000");
+                                                                            }
+                                                                            else
+                                                                            {
+                                                                                int seraphyren = rng.Next(7500000);
+                                                                                if (seraphyren == 0)
+                                                                                {
+                                                                                    Console.WriteLine("You got Seraphyren 1 in 7,500,000");
+                                                                                }
+                                                                                else
+                                                                                {
+                                                                                    int astralyn = rng.Next(5000000);
+                                                                                    if (astralyn == 0)
+                                                                                    {
+                                                                                        Console.WriteLine("You got Astralyn 1 in 5,000,000");
+                                                                                    }
+                                                                                    else
+                                                                                    {
+                                                                                        int solyndris = rng.Next(3000000);
+                                                                                        if (solyndris == 0)
+                                                                                        {
+                                                                                            Console.WriteLine("You got Solyndris 1 in 3,000,000");
+                                                                                        }
+                                                                                        else
+                                                                                        {
+                                                                                            int zephyriathis = rng.Next(2500000);
+                                                                                            if (zephyriathis == 0)
+                                                                                            {
+                                                                                                Console.WriteLine("You got Zephyriathis 1 in 2,500,000");
+                                                                                            }
+                                                                                            else
+                                                                                            {
+                                                                                                int omnithor = rng.Next(1000000);
+                                                                                                if (omnithor == 0)
+                                                                                                {
+                                                                                                    Console.WriteLine("You got Omnithor 1 in 1,000,000");
+                                                                                                }
+                                                                                                else
+                                                                                                {
+                                                                                                    int astrynna = rng.Next(750000);
+                                                                                                    if (astrynna == 0)
+                                                                                                    {
+                                                                                                        Console.WriteLine("You got Astrynna 1 in 750,000");
+                                                                                                    }
+                                                                                                    else
+                                                                                                    {
+                                                                                                        int valkyrianth = rng.Next(600000);
+                                                                                                        if (valkyrianth == 0)
+                                                                                                        {
+                                                                                                            Console.WriteLine("You got Valkyrianth 1 in 600,000");
+                                                                                                        }
+                                                                                                        else
+                                                                                                        {
+                                                                                                            int arcathis = rng.Next(500000);
+                                                                                                            if (arcathis == 0)
+                                                                                                            {
+                                                                                                                Console.WriteLine("You got Arcathis 1 in 500,000");
+                                                                                                            }
+                                                                                                            else
+                                                                                                            {
+                                                                                                                int cyntheris = rng.Next(300000);
+                                                                                                                if (cyntheris == 0)
+                                                                                                                {
+                                                                                                                    Console.WriteLine("You got Cyntheris 1 in 300,000");
+                                                                                                                }
+                                                                                                                else
+                                                                                                                {
+                                                                                                                    int fenorith = rng.Next(250000);
+                                                                                                                    if (fenorith == 0)
+                                                                                                                    {
+                                                                                                                        Console.WriteLine("You got Fenorith 1 in 250,000");
+                                                                                                                    }
+                                                                                                                    else
+                                                                                                                    {
+                                                                                                                        int elarionth = rng.Next(250000);
+                                                                                                                        if (elarionth == 0)
+                                                                                                                        {
+                                                                                                                            Console.WriteLine("You got Elarionth 1 in 250,000");
+                                                                                                                        }
+                                                                                                                        else
+                                                                                                                        {
+                                                                                                                            int arcandryss = rng.Next(100000);
+                                                                                                                            if (arcandryss == 0)
+                                                                                                                            {
+                                                                                                                                Console.WriteLine("You got Arcandryss 1 in 100,000");
+                                                                                                                            }
+                                                                                                                            else
+                                                                                                                            {
+                                                                                                                                int ithralion = rng.Next(99999);
+                                                                                                                                if (ithralion == 0)
+                                                                                                                                {
+                                                                                                                                    Console.WriteLine("You got Ithralion 1 in 99,999");
+                                                                                                                                }
+                                                                                                                                else
+                                                                                                                                {
+                                                                                                                                    int nivarel = rng.Next(95000);
+                                                                                                                                    if (nivarel == 0)
+                                                                                                                                    {
+                                                                                                                                        Console.WriteLine("You got Nivarel 1 in 95,000");
+                                                                                                                                    }
+                                                                                                                                    else
+                                                                                                                                    {
+                                                                                                                                        int vystoria = rng.Next(75000);
+                                                                                                                                        if (vystoria == 0)
+                                                                                                                                        {
+                                                                                                                                            Console.WriteLine("You got Vystoria 1 in 75,000");
+                                                                                                                                        }
+                                                                                                                                        else
+                                                                                                                                        {
+                                                                                                                                            int faloryn = rng.Next(75000);
+                                                                                                                                            if (faloryn == 0)
+                                                                                                                                            {
+                                                                                                                                                Console.WriteLine("You got Faloryn 1 in 75,000");
+                                                                                                                                            }
+                                                                                                                                            else
+                                                                                                                                            {
+                                                                                                                                                int nympharel = rng.Next(75000);
+                                                                                                                                                if (nympharel == 0)
+                                                                                                                                                {
+                                                                                                                                                    Console.WriteLine("You got Nympharel 1 in 75,000");
+                                                                                                                                                }
+                                                                                                                                                else
+                                                                                                                                                {
+                                                                                                                                                    int drakonys = rng.Next(65000);
+                                                                                                                                                    if (drakonys == 0)
+                                                                                                                                                    {
+                                                                                                                                                        Console.WriteLine("You got Drakonys 1 in 65,000");
+                                                                                                                                                    }
+                                                                                                                                                    else
+                                                                                                                                                    {
+                                                                                                                                                        int thyranthis = rng.Next(50000);
+                                                                                                                                                        if (thyranthis == 0)
+                                                                                                                                                        {
+                                                                                                                                                            Console.WriteLine("You got Thyranthis 1 in 50,000");
+                                                                                                                                                        }
+                                                                                                                                                        else
+                                                                                                                                                        {
+                                                                                                                                                            int tristanthys = rng.Next(35000);
+                                                                                                                                                            if (tristanthys == 0)
+                                                                                                                                                            {
+                                                                                                                                                                Console.WriteLine("You got Tristanthys 1 in 35,000");
+                                                                                                                                                            }
+                                                                                                                                                            else
+                                                                                                                                                            {
+                                                                                                                                                                int eluvianth = rng.Next(30000);
+                                                                                                                                                                if (eluvianth == 0)
+                                                                                                                                                                {
+                                                                                                                                                                    Console.WriteLine("You got Eluvianth 1 in 30,000");
+                                                                                                                                                                }
+                                                                                                                                                                else
+                                                                                                                                                                {
+                                                                                                                                                                    int elarithis = rng.Next(25000);
+                                                                                                                                                                    if (elarithis == 0)
+                                                                                                                                                                    {
+                                                                                                                                                                        Console.WriteLine("You got Elarithis 1 in 25,000");
+                                                                                                                                                                    }
+                                                                                                                                                                    else
+                                                                                                                                                                    {
+                                                                                                                                                                        int astralyxia = rng.Next(25000);
+                                                                                                                                                                        if (astralyxia == 0)
+                                                                                                                                                                        {
+                                                                                                                                                                            Console.WriteLine("You got Astralyxia 1 in 25,000");
+                                                                                                                                                                        }
+                                                                                                                                                                        else
+                                                                                                                                                                        {
+                                                                                                                                                                            int quenlyra = rng.Next(25000);
+                                                                                                                                                                            if (quenlyra == 0)
+                                                                                                                                                                            {
+                                                                                                                                                                                Console.WriteLine("You got Quenlyra 1 in 25,000");
+                                                                                                                                                                            }
+                                                                                                                                                                            else
+                                                                                                                                                                            {
+                                                                                                                                                                                int syrenthia = rng.Next(20000);
+                                                                                                                                                                                if (syrenthia == 0)
+                                                                                                                                                                                {
+                                                                                                                                                                                    Console.WriteLine("You got Syrenthia 1 in 20,000");
+                                                                                                                                                                                }
+                                                                                                                                                                                else
+                                                                                                                                                                                {
+                                                                                                                                                                                    int thylaria = rng.Next(16500);
+                                                                                                                                                                                    if (thylaria == 0)
+                                                                                                                                                                                    {
+                                                                                                                                                                                        Console.WriteLine("You got Thylaria 1 in 16,500");
+                                                                                                                                                                                    }
+                                                                                                                                                                                    else
+                                                                                                                                                                                    {
+                                                                                                                                                                                        int valoryn = rng.Next(15000);
+                                                                                                                                                                                        if (valoryn == 0)
+                                                                                                                                                                                        {
+                                                                                                                                                                                            Console.WriteLine("You got Valoryn 1 in 15,000");
+                                                                                                                                                                                        }
+                                                                                                                                                                                        else
+                                                                                                                                                                                        {
+                                                                                                                                                                                            int valindor = rng.Next(12500);
+                                                                                                                                                                                            if (valindor == 0)
+                                                                                                                                                                                            {
+                                                                                                                                                                                                Console.WriteLine("You got Valindor 1 in 12,500");
+                                                                                                                                                                                            }
+                                                                                                                                                                                            else
+                                                                                                                                                                                            {
+                                                                                                                                                                                                int fenrylith = rng.Next(12000);
+                                                                                                                                                                                                if (fenrylith == 0)
+                                                                                                                                                                                                {
+                                                                                                                                                                                                    Console.WriteLine("You got Fenrylith 1 in 12,000");
+                                                                                                                                                                                                }
+                                                                                                                                                                                                else
+                                                                                                                                                                                                {
+                                                                                                                                                                                                    int aelindor = rng.Next(10500);
+                                                                                                                                                                                                    if (aelindor == 0)
+                                                                                                                                                                                                    {
+                                                                                                                                                                                                        Console.WriteLine("You got Aelindor 1 in 10,500");
+                                                                                                                                                                                                    }
+                                                                                                                                                                                                    else
+                                                                                                                                                                                                    {
+                                                                                                                                                                                                        int lunarethys = rng.Next(10000);
+                                                                                                                                                                                                        if (lunarethys == 0)
+                                                                                                                                                                                                        {
+                                                                                                                                                                                                            Console.WriteLine("You got Lunarethys 1 in 10,000");
+                                                                                                                                                                                                        }
+                                                                                                                                                                                                        else
+                                                                                                                                                                                                        {
+                                                                                                                                                                                                            int varathor = rng.Next(8500);
+                                                                                                                                                                                                            if (varathor == 0)
+                                                                                                                                                                                                            {
+                                                                                                                                                                                                                Console.WriteLine("You got Varathor 1 in 8,500");
+                                                                                                                                                                                                            }
+                                                                                                                                                                                                            else
+                                                                                                                                                                                                            {
+                                                                                                                                                                                                                int luminarvex = rng.Next(8000);
+                                                                                                                                                                                                                if (luminarvex == 0)
+                                                                                                                                                                                                                {
+                                                                                                                                                                                                                    Console.WriteLine("You got Luminarvex 1 in 8,000");
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                                else
+                                                                                                                                                                                                                {
+                                                                                                                                                                                                                    int noctyraen = rng.Next(8000);
+                                                                                                                                                                                                                    if (noctyraen == 0)
+                                                                                                                                                                                                                    {
+                                                                                                                                                                                                                        Console.WriteLine("You got Noctyraen 1 in 8,000");
+                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                    else
+                                                                                                                                                                                                                    {
+                                                                                                                                                                                                                        int nyxoria = rng.Next(7500);
+                                                                                                                                                                                                                        if (nyxoria == 0)
+                                                                                                                                                                                                                        {
+                                                                                                                                                                                                                            Console.WriteLine("You got Nyxoria 1 in 7,500");
+                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                        else
+                                                                                                                                                                                                                        {
+                                                                                                                                                                                                                            int zyrendell = rng.Next(5000);
+                                                                                                                                                                                                                            if (zyrendell == 0)
+                                                                                                                                                                                                                            {
+                                                                                                                                                                                                                                Console.WriteLine("You got Zyrendell 1 in 5,000");
+                                                                                                                                                                                                                            }
+                                                                                                                                                                                                                            else
+                                                                                                                                                                                                                            {
+                                                                                                                                                                                                                                int xylandor = rng.Next(5000);
+                                                                                                                                                                                                                                if (xylandor == 0)
+                                                                                                                                                                                                                                {
+                                                                                                                                                                                                                                    Console.WriteLine("You got Xylandor 1 in 5,000");
+                                                                                                                                                                                                                                }
+                                                                                                                                                                                                                                else
+                                                                                                                                                                                                                                {
+                                                                                                                                                                                                                                    int solareth = rng.Next(3500);
+                                                                                                                                                                                                                                    if (solareth == 0)
+                                                                                                                                                                                                                                    {
+                                                                                                                                                                                                                                        Console.WriteLine("You got Solareth 1 in 3,500");
+                                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                                    else
+                                                                                                                                                                                                                                    {
+                                                                                                                                                                                                                                        int nymarion = rng.Next(3000);
+                                                                                                                                                                                                                                        if (nymarion == 0)
+                                                                                                                                                                                                                                        {
+                                                                                                                                                                                                                                            Console.WriteLine("You got Nymarion 1 in 3,000");
+                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                        else
+                                                                                                                                                                                                                                        {
+                                                                                                                                                                                                                                            int arcanyl = rng.Next(3000);
+                                                                                                                                                                                                                                            if (arcanyl == 0)
+                                                                                                                                                                                                                                            {
+                                                                                                                                                                                                                                                Console.WriteLine("You got Arcanyl 1 in 3,000");
+                                                                                                                                                                                                                                            }
+                                                                                                                                                                                                                                            else
+                                                                                                                                                                                                                                            {
+                                                                                                                                                                                                                                                int glyndarae = rng.Next(3000);
+                                                                                                                                                                                                                                                if (glyndarae == 0)
+                                                                                                                                                                                                                                                {
+                                                                                                                                                                                                                                                    Console.WriteLine("You got Glyndarae 1 in 3,000");
+                                                                                                                                                                                                                                                }
+                                                                                                                                                                                                                                                else
+                                                                                                                                                                                                                                                {
+                                                                                                                                                                                                                                                    int lythrynn = rng.Next(2500);
+                                                                                                                                                                                                                                                    if (lythrynn == 0)
+                                                                                                                                                                                                                                                    {
+                                                                                                                                                                                                                                                        Console.WriteLine("You got lythrynn 1 in 2,500");
+                                                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                                                    else
+                                                                                                                                                                                                                                                    {
+                                                                                                                                                                                                                                                        int elantris = rng.Next(2500);
+                                                                                                                                                                                                                                                        if (elantris == 0)
+                                                                                                                                                                                                                                                        {
+                                                                                                                                                                                                                                                            Console.WriteLine("You got Elantris 1 in 2,500");
+                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                        else
+                                                                                                                                                                                                                                                        {
+                                                                                                                                                                                                                                                            int glytharael = rng.Next(2000);
+                                                                                                                                                                                                                                                            if (glytharael == 0)
+                                                                                                                                                                                                                                                            {
+                                                                                                                                                                                                                                                                Console.WriteLine("You got Glytharael 1 in 2,000");
+                                                                                                                                                                                                                                                            }
+                                                                                                                                                                                                                                                            else
+                                                                                                                                                                                                                                                            {
+                                                                                                                                                                                                                                                                int lytherion = rng.Next(2000);
+                                                                                                                                                                                                                                                                if (lytherion == 0)
+                                                                                                                                                                                                                                                                {
+                                                                                                                                                                                                                                                                    Console.WriteLine("You got Lytherion 1 in 2,000");
+                                                                                                                                                                                                                                                                }
+                                                                                                                                                                                                                                                                else
+                                                                                                                                                                                                                                                                {
+                                                                                                                                                                                                                                                                    int myrrhyn = rng.Next(1500);
+                                                                                                                                                                                                                                                                    if (myrrhyn == 0)
+                                                                                                                                                                                                                                                                    {
+                                                                                                                                                                                                                                                                        Console.WriteLine("You got Myrrhyn 1 in 1,500");
+                                                                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                                                                    else
+                                                                                                                                                                                                                                                                    {
+                                                                                                                                                                                                                                                                        int galendris = rng.Next(1250);
+                                                                                                                                                                                                                                                                        if (galendris == 0)
+                                                                                                                                                                                                                                                                        {
+                                                                                                                                                                                                                                                                            Console.WriteLine("You got Galendris 1 in 1,250");
+                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                        else
+                                                                                                                                                                                                                                                                        {
+                                                                                                                                                                                                                                                                            int vaeloria = rng.Next(1000);
+                                                                                                                                                                                                                                                                            if (vaeloria == 0)
+                                                                                                                                                                                                                                                                            {
+                                                                                                                                                                                                                                                                                Console.WriteLine("You got Vaeloria 1 in 1,000");
+                                                                                                                                                                                                                                                                            }
+                                                                                                                                                                                                                                                                            else
+                                                                                                                                                                                                                                                                            {
+                                                                                                                                                                                                                                                                                int sylarael = rng.Next(500);
+                                                                                                                                                                                                                                                                                if (sylarael == 0)
+                                                                                                                                                                                                                                                                                {
+                                                                                                                                                                                                                                                                                    Console.WriteLine("You got Sylarael 1 in 500");
+                                                                                                                                                                                                                                                                                }
+                                                                                                                                                                                                                                                                                else
+                                                                                                                                                                                                                                                                                {
+                                                                                                                                                                                                                                                                                    int aset = rng.Next(250);
+                                                                                                                                                                                                                                                                                    if (aset == 0)
+                                                                                                                                                                                                                                                                                    {
+                                                                                                                                                                                                                                                                                        Console.WriteLine("You got Aset 1 in 250");
+                                                                                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                                                                                    else
+                                                                                                                                                                                                                                                                                    {
+                                                                                                                                                                                                                                                                                        int rarer = rng.Next(100);
+                                                                                                                                                                                                                                                                                        if (rarer == 0)
+                                                                                                                                                                                                                                                                                        {
+                                                                                                                                                                                                                                                                                            Console.WriteLine("You got Rarer 1 in 100");
+                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                        else
+                                                                                                                                                                                                                                                                                        {
+                                                                                                                                                                                                                                                                                            int rare = rng.Next(75);
+                                                                                                                                                                                                                                                                                            if (rare == 0)
+                                                                                                                                                                                                                                                                                            {
+                                                                                                                                                                                                                                                                                                Console.WriteLine("You got Rare 1 in 75");
+                                                                                                                                                                                                                                                                                            }
+                                                                                                                                                                                                                                                                                            else
+                                                                                                                                                                                                                                                                                            {
+                                                                                                                                                                                                                                                                                                int good = rng.Next(64);
+                                                                                                                                                                                                                                                                                                if (good == 0)
+                                                                                                                                                                                                                                                                                                {
+                                                                                                                                                                                                                                                                                                    Console.WriteLine("You got Good 1 in 64");
+                                                                                                                                                                                                                                                                                                }
+                                                                                                                                                                                                                                                                                                else
+                                                                                                                                                                                                                                                                                                {
+                                                                                                                                                                                                                                                                                                    int uncommon = rng.Next(32);
+                                                                                                                                                                                                                                                                                                    if (uncommon == 0)
+                                                                                                                                                                                                                                                                                                    {
+                                                                                                                                                                                                                                                                                                        Console.WriteLine("You got Uncommon 1 in 32");
+                                                                                                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                                                                                                    else
+                                                                                                                                                                                                                                                                                                    {
+                                                                                                                                                                                                                                                                                                        int common = rng.Next(16);
+                                                                                                                                                                                                                                                                                                        if (common == 0)
+                                                                                                                                                                                                                                                                                                        {
+                                                                                                                                                                                                                                                                                                            Console.WriteLine("You got Common 1 in 16");
+                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                        else
+                                                                                                                                                                                                                                                                                                        {
+                                                                                                                                                                                                                                                                                                            Console.WriteLine("You got Basic 1 in 2");
+
+                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                                                                                                }
+                                                                                                                                                                                                                                                                                            }
+                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                                                                                }
+                                                                                                                                                                                                                                                                            }
+                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                                                                }
+                                                                                                                                                                                                                                                            }
+                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                                                }
+                                                                                                                                                                                                                                            }
+                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                                }
+                                                                                                                                                                                                                            }
+                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                }
+                                                                                                                                                                                                            }
+                                                                                                                                                                                                        }
+                                                                                                                                                                                                    }
+                                                                                                                                                                                                }
+                                                                                                                                                                                            }
+                                                                                                                                                                                        }
+                                                                                                                                                                                    }
+                                                                                                                                                                                }
+                                                                                                                                                                            }
+                                                                                                                                                                        }
+                                                                                                                                                                    }
+                                                                                                                                                                }
+                                                                                                                                                            }
+                                                                                                                                                        }
+                                                                                                                                                    }
+                                                                                                                                                }
+                                                                                                                                            }
+                                                                                                                                        }
+                                                                                                                                    }
+                                                                                                                                }
+                                                                                                                            }
+                                                                                                                        }
+                                                                                                                    }
+                                                                                                                }
+                                                                                                            }
+                                                                                                        }
+                                                                                                    }
+                                                                                                }
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            Console.WriteLine();
+            Thread.Sleep(50);
+            Console.WriteLine("==============================");
+            Thread.Sleep(50);
+            Console.WriteLine("=============================");
+            Thread.Sleep(50);
+            Console.WriteLine("============================");
+            Thread.Sleep(50);
+            Console.WriteLine("===========================");
+            Thread.Sleep(50);
+            Console.WriteLine("==========================");
+            Thread.Sleep(50);
+            Console.WriteLine("=========================");
+            Thread.Sleep(50);
+            Console.WriteLine("========================");
+            Thread.Sleep(50);
+            Console.WriteLine("=======================");
+            Thread.Sleep(50);
+            Console.WriteLine("======================");
+            Thread.Sleep(50);
+            Console.WriteLine("=====================");
+            Thread.Sleep(50);
+            Console.WriteLine("====================");
+            Thread.Sleep(50);
+            Console.WriteLine("===================");
+            Thread.Sleep(50);
+            Console.WriteLine("==================");
+            Thread.Sleep(50);
+            Console.WriteLine("=================");
+            Thread.Sleep(50);
+            Console.WriteLine("================");
+            Thread.Sleep(50);
+            Console.WriteLine("===============");
+            Thread.Sleep(50);
+            Console.WriteLine("==============");
+            Thread.Sleep(50);
+            Console.WriteLine("=============");
+            Thread.Sleep(50);
+            Console.WriteLine("============");
+            Thread.Sleep(50);
+            Console.WriteLine("===========");
+            Thread.Sleep(50);
+            Console.WriteLine("==========");
+            Thread.Sleep(50);
+            Console.WriteLine("=========");
+            Thread.Sleep(50);
+            Console.WriteLine("========");
+            Thread.Sleep(50);
+            Console.WriteLine("=======");
+            Thread.Sleep(50);
+            Console.WriteLine("======");
+            Thread.Sleep(50);
+            Console.WriteLine("=====");
+            Thread.Sleep(50);
+            Console.WriteLine("====");
+            Thread.Sleep(50);
+            Console.WriteLine("===");
+            Thread.Sleep(50);
+            Console.WriteLine("==");
+            Thread.Sleep(50);
+            Console.WriteLine("=");
+            Thread.Sleep(50);
+        }
+
+    }
+}
+            
